@@ -1,0 +1,16 @@
+pluginManagement {
+	repositories {
+		maven { url = 'https://repo.spring.io/snapshot' }
+		gradlePluginPortal()
+	}
+}
+rootProject.name = 'demo'
+include 'ai-service'
+include 'auth-service'
+include 'collaboration-service'
+include 'common-module'
+include 'config-service'
+include 'discovery-service'
+include 'gateway-service'
+include 'schedule-service'
+include 'user-service'
